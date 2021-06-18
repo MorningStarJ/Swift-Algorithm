@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Code"
+      name = "Code">
+      <FileRef
+         location = "group:/Users/morningstar/Developer/algorithms/Swift-Algorithm/Code/1.TwoSum.playground">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/morningstar/Developer/algorithms/Swift-Algorithm/Code/2.AddTwoNumbers.playground">
+      </FileRef>
+      <FileRef
+         location = "group:3.LongestSubstring.playground">
+      </FileRef>
+   </Group>
+</Workspace>
