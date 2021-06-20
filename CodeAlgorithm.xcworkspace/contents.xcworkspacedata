@@ -2,6 +2,17 @@
 <Workspace
    version = "1.0">
    <Group
+      location = "group:Category"
+      name = "Category">
+      <Group
+         location = "group:Array"
+         name = "Array">
+         <FileRef
+            location = "group:704.BinarySearch.playground">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
       location = "group:Code"
       name = "Code">
       <FileRef

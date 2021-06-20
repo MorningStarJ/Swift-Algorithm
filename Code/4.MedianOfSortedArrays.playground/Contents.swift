@@ -34,11 +34,13 @@ import Foundation
 //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
 func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {
+    // 为了时间复杂度，查较短的数组
     if nums1.count > nums2.count {
-        return findMedian(nums1: nums2, nums2: nums1)
+        return findMedianSortedArrays(nums1: nums2, nums2: nums1)
     }
     var low = 0
     var high = nums1.count
+    // 向下取整
     let k = (nums1.count + nums2.count + 1) / 2
     var nums1Mid = 0
     var nums2Mid = 0
@@ -46,10 +48,14 @@ func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {
     while low <= high {
         // nums1:  ……………… nums1[nums1Mid-1] | nums1[nums1Mid] ……………………
         // nums2:  ……………… nums2[nums2Mid-1] | nums2[nums2Mid] ……………………
+        // 每次从中间去取，二分搜索
         nums1Mid = low + (high - low) / 2
         nums2Mid = k - nums1Mid
+        // 分界线大了
         if nums1Mid > 0, nums1[nums1Mid - 1] > nums2[nums2Mid] {
             high = nums1Mid - 1
+            // 分界线小了
+            
         } else if nums1Mid != nums1.count, nums1[nums1Mid] < nums2[nums2Mid - 1] {
             low = nums1Mid + 1
         } else {
