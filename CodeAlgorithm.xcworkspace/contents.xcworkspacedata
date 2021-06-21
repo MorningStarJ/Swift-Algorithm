@@ -10,6 +10,9 @@
          <FileRef
             location = "group:704.BinarySearch.playground">
          </FileRef>
+         <FileRef
+            location = "group:27.RemoveElement.playground">
+         </FileRef>
       </Group>
    </Group>
    <Group

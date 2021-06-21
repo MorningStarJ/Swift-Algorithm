@@ -21,7 +21,7 @@ import Foundation
 //链接：https://leetcode-cn.com/problems/binary-search
 
 class Solution {
-    func search(_ nums: [Int], _ target: Int) -> Int {
+    func search<Element: Comparable>(_ nums: [Element], _ target: Element) -> Int {
         var lowerBound = 0
         var upperBound = nums.count
         while lowerBound < upperBound {
@@ -38,7 +38,9 @@ class Solution {
     }
 }
 
-print(Solution().search([-1,0,3,5,9,12], 2))
+var startTime = CFAbsoluteTimeGetCurrent()
+print(Solution().search([-1,0,3,5,9,12], 3))
+print(CFAbsoluteTimeGetCurrent() - startTime)
 
 extension RandomAccessCollection where Element: Comparable {
 
@@ -58,5 +60,6 @@ extension RandomAccessCollection where Element: Comparable {
         }
     }
 }
-
+startTime = CFAbsoluteTimeGetCurrent()
 print([-1,0,3,5,9,12].binarySearch(for: 3))
+print(CFAbsoluteTimeGetCurrent() - startTime)
