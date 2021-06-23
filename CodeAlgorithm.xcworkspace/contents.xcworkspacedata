@@ -13,6 +13,15 @@
          <FileRef
             location = "group:27.RemoveElement.playground">
          </FileRef>
+         <FileRef
+            location = "group:977.SquaresOfSortedArray.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/morningstar/Developer/algorithms/Swift-Algorithm/Category/Array/209.MinimumSizeSubarraySum.playground">
+         </FileRef>
+         <FileRef
+            location = "group:59.SpiralMatrixII.playground">
+         </FileRef>
       </Group>
    </Group>
    <Group
