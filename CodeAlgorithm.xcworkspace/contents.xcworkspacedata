@@ -5,6 +5,13 @@
       location = "group:Category"
       name = "Category">
       <Group
+         location = "container:"
+         name = "LinkedList">
+         <FileRef
+            location = "group:203.RemoveLinkedListElements.playground">
+         </FileRef>
+      </Group>
+      <Group
          location = "group:Array"
          name = "Array">
          <FileRef
