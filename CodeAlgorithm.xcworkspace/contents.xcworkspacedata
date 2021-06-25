@@ -10,6 +10,9 @@
          <FileRef
             location = "group:203.RemoveLinkedListElements.playground">
          </FileRef>
+         <FileRef
+            location = "group:707.DesignLinkedList.playground">
+         </FileRef>
       </Group>
       <Group
          location = "group:Array"
