@@ -13,6 +13,9 @@
          <FileRef
             location = "group:707.DesignLinkedList.playground">
          </FileRef>
+         <FileRef
+            location = "group:206.ReverseLinkedList.playground">
+         </FileRef>
       </Group>
       <Group
          location = "group:Array"
