@@ -16,6 +16,18 @@
          <FileRef
             location = "group:206.ReverseLinkedList.playground">
          </FileRef>
+         <FileRef
+            location = "group:24.SwapNodesinPairs.playground">
+         </FileRef>
+         <FileRef
+            location = "group:19.RemoveNthNodeFromEndofList .playground">
+         </FileRef>
+         <FileRef
+            location = "group:Interview02.07.IntersectionOfTwoLinkedListLCCI.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/morningstar/Developer/algorithms/Swift-Algorithm/142.LinkedListCycleII.playground">
+         </FileRef>
       </Group>
       <Group
          location = "group:Array"
