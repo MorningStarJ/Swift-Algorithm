@@ -6,6 +6,19 @@
       name = "Category">
       <Group
          location = "container:"
+         name = "HashTable">
+         <FileRef
+            location = "group:242.ValidAnagram.playground">
+         </FileRef>
+         <FileRef
+            location = "group:349.IntersectionofTwoArrays.playground">
+         </FileRef>
+         <FileRef
+            location = "group:202.HappyNumber.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:"
          name = "LinkedList">
          <FileRef
             location = "group:203.RemoveLinkedListElements.playground">
