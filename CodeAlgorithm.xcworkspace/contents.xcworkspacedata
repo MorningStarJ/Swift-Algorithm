@@ -5,10 +5,13 @@
       location = "group:Category"
       name = "Category">
       <Group
-         location = "container:"
+         location = "group:HashTable"
          name = "HashTable">
          <FileRef
-            location = "group:242.ValidAnagram.playground">
+            location = "group:15.3Sum.playground">
+         </FileRef>
+         <FileRef
+            location = "group:383.RansomNote.playground">
          </FileRef>
          <FileRef
             location = "group:349.IntersectionofTwoArrays.playground">
@@ -17,41 +20,38 @@
             location = "group:202.HappyNumber.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/morningstar/Developer/algorithms/Swift-Algorithm/1.TwoSum.playground">
-         </FileRef>
-         <FileRef
             location = "group:454.4SumII.playground">
          </FileRef>
          <FileRef
-            location = "group:383.RansomNote.playground">
+            location = "group:242.ValidAnagram.playground">
          </FileRef>
          <FileRef
-            location = "group:15.3Sum.playground">
+            location = "group:1.TwoSum.playground">
          </FileRef>
       </Group>
       <Group
-         location = "container:"
+         location = "group:LinkedList"
          name = "LinkedList">
          <FileRef
-            location = "group:203.RemoveLinkedListElements.playground">
+            location = "group:142.LinkedListCycleII.playground">
          </FileRef>
          <FileRef
             location = "group:707.DesignLinkedList.playground">
          </FileRef>
          <FileRef
+            location = "group:19.RemoveNthNodeFromEndofList .playground">
+         </FileRef>
+         <FileRef
             location = "group:206.ReverseLinkedList.playground">
+         </FileRef>
+         <FileRef
+            location = "group:203.RemoveLinkedListElements.playground">
          </FileRef>
          <FileRef
             location = "group:24.SwapNodesinPairs.playground">
          </FileRef>
          <FileRef
-            location = "group:19.RemoveNthNodeFromEndofList .playground">
-         </FileRef>
-         <FileRef
             location = "group:Interview02.07.IntersectionOfTwoLinkedListLCCI.playground">
-         </FileRef>
-         <FileRef
-            location = "group:/Users/morningstar/Developer/algorithms/Swift-Algorithm/142.LinkedListCycleII.playground">
          </FileRef>
       </Group>
       <Group
