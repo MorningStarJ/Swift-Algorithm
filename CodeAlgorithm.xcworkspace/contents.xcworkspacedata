@@ -16,6 +16,18 @@
          <FileRef
             location = "group:202.HappyNumber.playground">
          </FileRef>
+         <FileRef
+            location = "group:/Users/morningstar/Developer/algorithms/Swift-Algorithm/1.TwoSum.playground">
+         </FileRef>
+         <FileRef
+            location = "group:454.4SumII.playground">
+         </FileRef>
+         <FileRef
+            location = "group:383.RansomNote.playground">
+         </FileRef>
+         <FileRef
+            location = "group:15.3Sum.playground">
+         </FileRef>
       </Group>
       <Group
          location = "container:"
