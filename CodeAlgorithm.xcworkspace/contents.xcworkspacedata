@@ -13,6 +13,12 @@
          <FileRef
             location = "group:541.ReverseStringII.playground">
          </FileRef>
+         <FileRef
+            location = "group:/Users/morningstar/Developer/algorithms/Swift-Algorithm/Category/String/Offer05.&#x66ff;&#x6362;&#x7a7a;&#x683c;.playground">
+         </FileRef>
+         <FileRef
+            location = "group:151.ReverseWordsInAString.playground">
+         </FileRef>
       </Group>
       <Group
          location = "group:HashTable"

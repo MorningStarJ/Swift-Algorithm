@@ -20,8 +20,9 @@ class Solution {
     func reverse(_ s: inout [Character], start: Int, end: Int) {
         var lower = start
         var upper = end
-        while lower < end {
+        while lower < upper {
             s.swapAt(lower, upper)
+            
             lower += 1
             upper -= 1
         }
@@ -39,9 +40,10 @@ class Solution {
             }
             
             reverse(&string, start: lowerBound, end: upperBound - 1)
+            break
         }
         return String(string)
     }
 }
 
-print(Solution().reverseStr("abcd", 4))
+print(Solution().reverseStr("a", 2))
