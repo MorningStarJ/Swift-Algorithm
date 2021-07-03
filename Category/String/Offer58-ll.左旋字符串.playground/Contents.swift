@@ -13,3 +13,22 @@ import Foundation
 //        return s;
 //    }
 //};
+class Solution {
+    func reverse(_ s: inout [Character], start: Int, end: Int) {
+        var lower = start
+        var upper = end
+        while lower < upper {
+            s.swapAt(lower, upper)
+            lower += 1
+            upper -= 1
+        }
+    }
+    
+    
+    func reverseLeftWords(_ s: String, _ n: Int) -> String {
+        guard n <= s.count else { return s }
+        var character = Array(s)
+        character = Array(character[n...]) + Array(character[..<n])
+        return String(character)
+    }
+}
