@@ -22,6 +22,9 @@
          <FileRef
             location = "group:Offer58-ll.&#x5de6;&#x65cb;&#x5b57;&#x7b26;&#x4e32;.playground">
          </FileRef>
+         <FileRef
+            location = "group:28.ImplementstrStr().playground">
+         </FileRef>
       </Group>
       <Group
          location = "group:HashTable"
