@@ -25,6 +25,9 @@
          <FileRef
             location = "group:28.ImplementstrStr().playground">
          </FileRef>
+         <FileRef
+            location = "group:459.RepeatedSubstringPattern.playground">
+         </FileRef>
       </Group>
       <Group
          location = "group:HashTable"
