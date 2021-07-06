@@ -42,7 +42,6 @@ class Solution {
         var upper = end
         while lower < upper {
             s.swapAt(lower, upper)
-            
             lower += 1
             upper -= 1
         }

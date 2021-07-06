@@ -5,6 +5,13 @@
       location = "group:Category"
       name = "Category">
       <Group
+         location = "group:DoublePointer"
+         name = "DoublePointer">
+         <FileRef
+            location = "group:27.RemoveElement.playground">
+         </FileRef>
+      </Group>
+      <Group
          location = "group:String"
          name = "String">
          <FileRef
