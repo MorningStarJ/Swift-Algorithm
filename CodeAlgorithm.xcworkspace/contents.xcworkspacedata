@@ -6,9 +6,12 @@
       name = "Category">
       <Group
          location = "group:DoublePointer"
-         name = "DoublePointer">
+         name = "TwoPointers">
          <FileRef
             location = "group:27.RemoveElement.playground">
+         </FileRef>
+         <FileRef
+            location = "group:344.ReverseString.playground">
          </FileRef>
       </Group>
       <Group
