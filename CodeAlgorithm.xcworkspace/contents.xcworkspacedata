@@ -16,6 +16,12 @@
          <FileRef
             location = "group:Offer05.&#x66ff;&#x6362;&#x7a7a;&#x683c;.playground">
          </FileRef>
+         <FileRef
+            location = "group:151.ReverseWordsInAString.playground">
+         </FileRef>
+         <FileRef
+            location = "group:206.ReverseLinkedList.playground">
+         </FileRef>
       </Group>
       <Group
          location = "group:String"
