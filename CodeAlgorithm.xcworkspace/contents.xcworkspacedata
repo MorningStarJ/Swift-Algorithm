@@ -22,6 +22,12 @@
          <FileRef
             location = "group:206.ReverseLinkedList.playground">
          </FileRef>
+         <FileRef
+            location = "group:19.RemoveNthNodeFromEndofList .playground">
+         </FileRef>
+         <FileRef
+            location = "group:Interview02.07.IntersectionOfTwoLinkedListLCCI.playground">
+         </FileRef>
       </Group>
       <Group
          location = "group:String"
