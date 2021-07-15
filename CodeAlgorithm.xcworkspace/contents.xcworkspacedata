@@ -28,6 +28,9 @@
          <FileRef
             location = "group:Interview02.07.IntersectionOfTwoLinkedListLCCI.playground">
          </FileRef>
+         <FileRef
+            location = "group:142.LinkedListCycleII.playground">
+         </FileRef>
       </Group>
       <Group
          location = "group:String"
