@@ -31,6 +31,9 @@
          <FileRef
             location = "group:142.LinkedListCycleII.playground">
          </FileRef>
+         <FileRef
+            location = "group:15.3Sum.playground">
+         </FileRef>
       </Group>
       <Group
          location = "group:String"
