@@ -34,6 +34,9 @@
          <FileRef
             location = "group:15.3Sum.playground">
          </FileRef>
+         <FileRef
+            location = "group:/Users/morningstar/Developer/algorithms/Swift-Algorithm/Category/DoublePointer/18.4Sum.playground">
+         </FileRef>
       </Group>
       <Group
          location = "group:String"
