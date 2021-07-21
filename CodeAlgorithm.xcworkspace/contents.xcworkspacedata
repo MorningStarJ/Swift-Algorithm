@@ -5,6 +5,13 @@
       location = "group:Category"
       name = "Category">
       <Group
+         location = "group:Stack"
+         name = "Stack">
+         <FileRef
+            location = "group:232.ImplementQueueUsingStacks.playground">
+         </FileRef>
+      </Group>
+      <Group
          location = "group:DoublePointer"
          name = "TwoPointers">
          <FileRef
