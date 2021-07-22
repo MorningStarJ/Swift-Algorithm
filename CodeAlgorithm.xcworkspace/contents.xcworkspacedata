@@ -10,6 +10,9 @@
          <FileRef
             location = "group:232.ImplementQueueUsingStacks.playground">
          </FileRef>
+         <FileRef
+            location = "group:225.ImplementStackUsingQueues.playground">
+         </FileRef>
       </Group>
       <Group
          location = "group:DoublePointer"
