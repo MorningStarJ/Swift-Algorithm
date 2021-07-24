@@ -24,6 +24,7 @@ import Foundation
 //[null, null, null, 2, 2, false]
 //
 //Explanation
+
 //MyStack myStack = new MyStack();
 //myStack.push(1);
 //myStack.push(2);

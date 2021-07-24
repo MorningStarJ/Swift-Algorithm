@@ -13,6 +13,9 @@
          <FileRef
             location = "group:225.ImplementStackUsingQueues.playground">
          </FileRef>
+         <FileRef
+            location = "group:20.ValidParentheses.playground">
+         </FileRef>
       </Group>
       <Group
          location = "group:DoublePointer"
