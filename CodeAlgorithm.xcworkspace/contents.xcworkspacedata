@@ -16,6 +16,9 @@
          <FileRef
             location = "group:20.ValidParentheses.playground">
          </FileRef>
+         <FileRef
+            location = "group:/Users/morningstar/Developer/algorithms/Swift-Algorithm/Category/Stack/1047.RemoveAllAdjacentDuplicatesInString.playground">
+         </FileRef>
       </Group>
       <Group
          location = "group:DoublePointer"
