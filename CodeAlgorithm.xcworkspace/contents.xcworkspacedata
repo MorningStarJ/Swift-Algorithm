@@ -19,6 +19,9 @@
          <FileRef
             location = "group:/Users/morningstar/Developer/algorithms/Swift-Algorithm/Category/Stack/1047.RemoveAllAdjacentDuplicatesInString.playground">
          </FileRef>
+         <FileRef
+            location = "group:150.EvaluateReversePolishNotation.playground">
+         </FileRef>
       </Group>
       <Group
          location = "group:DoublePointer"
