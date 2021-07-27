@@ -22,6 +22,9 @@
          <FileRef
             location = "group:150.EvaluateReversePolishNotation.playground">
          </FileRef>
+         <FileRef
+            location = "group:239.SlidingWindowMaximum.playground">
+         </FileRef>
       </Group>
       <Group
          location = "group:DoublePointer"
