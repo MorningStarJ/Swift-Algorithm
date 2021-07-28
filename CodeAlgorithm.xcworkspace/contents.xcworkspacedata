@@ -5,6 +5,13 @@
       location = "group:Category"
       name = "Category">
       <Group
+         location = "group:BinaryTree"
+         name = "BinaryTree">
+         <FileRef
+            location = "group:144.BinaryTreePreorderTraversal.playground">
+         </FileRef>
+      </Group>
+      <Group
          location = "group:Stack"
          name = "Stack">
          <FileRef
@@ -24,6 +31,9 @@
          </FileRef>
          <FileRef
             location = "group:239.SlidingWindowMaximum.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/morningstar/Developer/algorithms/Swift-Algorithm/Category/Stack/347.TopKFrequentElements.playground">
          </FileRef>
       </Group>
       <Group
