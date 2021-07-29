@@ -10,6 +10,9 @@
          <FileRef
             location = "group:144.BinaryTreePreorderTraversal.playground">
          </FileRef>
+         <FileRef
+            location = "group:145.BinaryTreePostorderTraversal.playground">
+         </FileRef>
       </Group>
       <Group
          location = "group:Stack"
