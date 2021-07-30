@@ -13,6 +13,9 @@
          <FileRef
             location = "group:145.BinaryTreePostorderTraversal.playground">
          </FileRef>
+         <FileRef
+            location = "group:94. Binary Tree Inorder Traversal.playground">
+         </FileRef>
       </Group>
       <Group
          location = "group:Stack"
