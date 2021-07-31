@@ -29,7 +29,7 @@ import Foundation
 //Output: [1,2]
 //
 //
-//Constraints:
+//ConstraTs:
 //
 //The number of nodes in the tree is in the range [0, 100].
 //-100 <= Node.val <= 100
@@ -53,20 +53,90 @@ public class TreeNode {
     }
 }
 
+//class Solution {
+//    func preorderTraversal(_ root: TreeNode?) -> [Int] {
+//        var result: [Int] = []
+//        traversePreOrder(current: root) { value in
+//            result.append(value)
+//        }
+//        return result
+//    }
+//
+//    public func traversePreOrder(current: TreeNode?, visit: (Int) -> Void) {
+//        guard let cur = current else { return }
+//        visit(cur.val)
+//        traversePreOrder(current: cur.left, visit: visit)
+//        traversePreOrder(current: cur.right, visit: visit)
+//
+//    }
+//}
+
+
 class Solution {
     func preorderTraversal(_ root: TreeNode?) -> [Int] {
+        let stack = MyStack<TreeNode>()
         var result: [Int] = []
-        traversePreOrder(current: root) { value in
-            result.append(value)
+        guard let node = root else { return result }
+        stack.push(node)
+        while !stack.empty() {
+            
+            guard let topNode = stack.pop() else {
+                break
+            }
+            result.append(topNode.val)
+            
+            if let rightNode = topNode.right {
+                stack.push(rightNode)
+            }
+            
+            if let leftNode = topNode.left {
+                stack.push(leftNode)
+            }
         }
         return result
     }
     
-    public func traversePreOrder(current: TreeNode?, visit: (Int) -> Void) {
+    public func stackPreOrder(current: TreeNode?, visit: (Int) -> Void) {
+        
+        
         guard let cur = current else { return }
-        visit(cur.val)
-        traversePreOrder(current: cur.left, visit: visit)
-        traversePreOrder(current: cur.right, visit: visit)
+        
+//        visit(cur.val)
+//        traversePreOrder(current: cur.left, visit: visit)
+//        traversePreOrder(current: cur.right, visit: visit)
         
     }
+    
+
 }
+class MyStack<T> {
+    
+    var array: [T] = []
+
+    /** Initialize your data structure here. */
+    init() {
+
+    }
+    
+    /** Push element x onto stack. */
+    func push(_ x: T) {
+        array.append(x)
+    }
+    
+    /** Removes the element on top of the stack and returns that element. */
+    func pop() -> T? {
+        array.popLast()
+    }
+    
+    /** Get the top element. */
+    func top() -> T? {
+        array.last
+    }
+    
+    /** Returns whether the stack is empty. */
+    func empty() -> Bool {
+        array.isEmpty
+    }
+}
+
+
