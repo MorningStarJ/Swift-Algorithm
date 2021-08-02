@@ -47,20 +47,69 @@ public class TreeNode {
     }
 }
 
+//class Solution {
+//    func inorderTraversal(_ root: TreeNode?) -> [Int] {
+//        var result: [Int] = []
+//        traverseInOrder(current: root) { value in
+//            result.append(value)
+//        }
+//        return result
+//    }
+//
+//    public func traverseInOrder(current: TreeNode?, visit: (Int) -> Void) {
+//        guard let cur = current else { return }
+//
+//        traverseInOrder(current: cur.left, visit: visit)
+//        visit(cur.val)
+//        traverseInOrder(current: cur.right, visit: visit)
+//    }
+//}
 class Solution {
     func inorderTraversal(_ root: TreeNode?) -> [Int] {
+        let stack = MyStack<TreeNode>()
         var result: [Int] = []
-        traverseInOrder(current: root) { value in
-            result.append(value)
+        var current = root
+        while !stack.empty() || current != nil {
+            if let node = current {
+                stack.push(node)
+                current = node.left
+            } else if let top = stack.pop() {
+                result.append(top.val)
+                current = top.right
+            }
         }
         return result
     }
+}
+
+class MyStack<T> {
     
-    public func traverseInOrder(current: TreeNode?, visit: (Int) -> Void) {
-        guard let cur = current else { return }
-        
-        traverseInOrder(current: cur.left, visit: visit)
-        visit(cur.val)
-        traverseInOrder(current: cur.right, visit: visit)
+    var array: [T] = []
+
+    /** Initialize your data structure here. */
+    init() {
+
+    }
+    
+    /** Push element x onto stack. */
+    func push(_ x: T) {
+        array.append(x)
+    }
+    
+    /** Removes the element on top of the stack and returns that element. */
+    func pop() -> T? {
+        array.popLast()
+    }
+    
+    /** Get the top element. */
+    func top() -> T? {
+        array.last
+    }
+    
+    /** Returns whether the stack is empty. */
+    func empty() -> Bool {
+        array.isEmpty
     }
 }
+
+
