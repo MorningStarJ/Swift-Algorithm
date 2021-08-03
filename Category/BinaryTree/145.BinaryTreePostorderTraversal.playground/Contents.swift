@@ -50,20 +50,80 @@ public class TreeNode {
     }
 }
 
+//class Solution {
+//    func postorderTraversal(_ root: TreeNode?) -> [Int] {
+//        var result: [Int] = []
+//        traversePostOrder(current: root) { value in
+//            result.append(value)
+//        }
+//        return result
+//    }
+//
+//    public func traversePostOrder(current: TreeNode?, visit: (Int) -> Void) {
+//        guard let cur = current else { return }
+//
+//        traversePostOrder(current: cur.left, visit: visit)
+//        traversePostOrder(current: cur.right, visit: visit)
+//        visit(cur.val)
+//    }
+//}
+
 class Solution {
     func postorderTraversal(_ root: TreeNode?) -> [Int] {
+        let stack = MyStack<TreeNode>()
         var result: [Int] = []
-        traversePostOrder(current: root) { value in
-            result.append(value)
+        guard let node = root else { return result }
+        stack.push(node)
+        while !stack.empty() {
+            
+            guard let topNode = stack.pop() else {
+                break
+            }
+            result.append(topNode.val)
+            
+            
+            if let leftNode = topNode.left {
+                stack.push(leftNode)
+            }
+            
+            if let rightNode = topNode.right {
+                stack.push(rightNode)
+            }
         }
-        return result
-    }
-    
-    public func traversePostOrder(current: TreeNode?, visit: (Int) -> Void) {
-        guard let cur = current else { return }
         
-        traversePostOrder(current: cur.left, visit: visit)
-        traversePostOrder(current: cur.right, visit: visit)
-        visit(cur.val)
+        
+        return result.reversed()
     }
 }
+
+class MyStack<T> {
+    
+    var array: [T] = []
+
+    /** Initialize your data structure here. */
+    init() {
+
+    }
+    
+    /** Push element x onto stack. */
+    func push(_ x: T) {
+        array.append(x)
+    }
+    
+    /** Removes the element on top of the stack and returns that element. */
+    func pop() -> T? {
+        array.popLast()
+    }
+    
+    /** Get the top element. */
+    func top() -> T? {
+        array.last
+    }
+    
+    /** Returns whether the stack is empty. */
+    func empty() -> Bool {
+        array.isEmpty
+    }
+}
+
+
